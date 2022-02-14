@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <img src="../../static/images/pixel-art-marvel-comics-pixels-superhero-wallpaper-preview.jpg" alt="chars" id="marvel-char">
+    </div>
+    <div class="row header-text">
+        <h3>Marvel Characters</h3>
+        <h4>at the click of your mouse</h4>
+        <p>welcome to the marvel character crud api</p>
+        <p>marvel characters stats, movies, powers, and lore</p>
+    </div>
+</div>
+
+<section class="row" id="displaychar">
+    <div>
+        <h2>Display Your Favorite Characters</h2>
+        <p>Use our api to show off your marvel fandom</p>
+    </div>
+</section>
+
+<section class="row" id="features-section">
+    <div class="col-12 col-md-4">
+        <img src="../../static/images/captainamerica.png" alt="API image" id="api-image">
+        <h4>Dedicated API Routes</h4>
+        <p>
+            if you are a fan of using traditional api routes, we have those
+        </p>
+    </div>
+
+    <div class="col-12 col-md-4">
+        <img src="../../static/images/ironman.png" alt="graphql" id="graphql-image">
+        <h4>GraphQL API Route</h4>
+        <p>
+            If you want all data from one endpoint we got what you need
+        </p>
+    </div>
+
+    <div class="col-4 col-md-4">
+        <img src="../../static/images/56-562354_hulk-hulk-png-transparent-png.png" alt="db" id="database-image">
+        <h4>Backed by postgresql</h4>
+        <p>
+            Data at your fingertips
+        </p>
+    </div>
+</section>
+
+<footer class="footer-grid" id="footer">
+    <div class="footer-ele">
+        <img src="../../static/images/marvel-logo.png" alt="footer logo" id="footer-logo">
+    </div>
+    <div class="footer-ele">
+        <div class="footer-text-flex">
+            <h4></h4>
+            <p>Our Products</p>
+            <p>Who is we</p>
+            <p>Marvel > DC</p>
+            <p>Comics</p>
+            <p>Resources</p>
+            <p>Huh</p>
+            
+        </div>
+    </div>
+    <div class="footer-ele">
+        <div class="footer-text-flex">
+            <h4></h4>
+            <p>Sign in</p>
+            <p>Sign out</p>
+            <p>Log Out</p>
+            <p>Profile</p>
+            <p>Home</p>
+            <p>API</p>
+
+        </div>
+    </div>
+    <div class="footer-ele">
+        <div class="footer-text-flex">
+            <h4></h4>
+            <p>Platform</p>
+            <p>Why Marvel API</p>
+            <p>About us</p>
+            <p>Donate</p>
+            <p>Spread the Word</p>
+            <p>Our Process</p>
+
+        </div>
+    </div>
+    
+</footer>
+
+
+{% endblock content %}
